@@ -73,10 +73,8 @@ def lambda_handler(event, context):
         }
         
         
-    
     if event['invocationSource'] == 'FulfillmentCodeHook':
         
-        # Add order in Database
         
         response = {
         "sessionState": {
