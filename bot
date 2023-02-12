@@ -92,7 +92,7 @@ def lambda_handler(event, context):
         "messages": [
             {
                 "contentType": "PlainText",
-                "content": "Thanks, I have placed your reservation"
+                "content": "Thank you. We will get in touch with you shortly."
             }
         ]
     }
